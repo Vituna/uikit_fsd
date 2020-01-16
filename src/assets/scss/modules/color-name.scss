@@ -1,0 +1,88 @@
+.color {
+    width: 50%;
+    padding-top: 67px;
+    padding-left: 150px;
+}
+.color__line {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.color__fon {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    margin-right: 40px;
+}
+.color__text {
+    width: 159px;
+    height: 57px;
+    font-family: $fontquicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 29px;
+    color: #1F2041;
+}
+.color_1 {
+    top: 0px;
+    background:#1F2041;
+}
+.text_1 {
+    width: 159px;
+    height: 57px;
+    top: 7px;
+}
+.color_2{
+    top: 90px;
+    background: rgba(31, 32, 65, 0.75);
+}
+.text_2 {
+    width: 150px;
+    height: 57px;
+    top: 97px;
+}
+.color_3 {
+    top: 180px;
+    background: rgba(31, 32, 65, 0.5);
+}
+.text_3 {
+    width: 151px;
+    height: 57px;
+    top: 187px;
+}
+.color_4 {
+    top: 270px;
+    background: rgba(31, 32, 65, 0.25);
+}
+.text_4 {
+    width: 149px;
+    height: 57px;
+    top: 277px;
+}
+.color_5 {
+    top: 360px;
+    background: rgba(31, 32, 65, 0.05);
+}
+.text_5 {
+    width: 139px;
+    top: 366px;
+}
+.color_6 {
+    top: 450px;
+    background: #BC9CFF;
+}
+.text_6 {
+    width: 82px;
+    top: 456px;
+}
+.color_7 {
+    background: #6FCF97;
+}
+.color__number {
+    font-weight: normal;
+    display: block;
+    margin-top: -2px;
+    margin-left: 1px;
+
+}

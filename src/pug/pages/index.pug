@@ -1,6 +1,6 @@
 extends ../layout/main
 
-block head
+block head 
 	block variables
 		- var title = 'ColorType';
 		- var description = 'Description for Webpack + Pug';
@@ -8,7 +8,46 @@ block head
 
 block page
 	.container
-		p main 2
-		
-
-
+		.color
+			.color__line
+				.color__fon.color_1 
+				.color__text.text_1 <p>Dark Shade 100% 
+					span.color__number #1F2041 
+			.color__line
+				.color__fon.color_2 
+				.color__text.text_2 <p>Dark Shade 75%
+					span.color__number #1F2041
+			.color__line
+				.color__fon.color_3 
+				.color__text.text_3 <p>Dark Shade 50%
+					span.color__number #1F2041
+			.color__line
+				.color__fon.color_4 
+				.color__text.text_4 <p>Dark Shade 25%
+					span.color__number #1F2041
+			.color__line
+				.color__fon.color_5 
+				.color__text.text_5 <p>Dark Shade 5%
+					span.color__number #1F2041
+			.color__line
+				.color__fon.color_6
+				.color__text.text_6 <p>Purple 
+					span.color__number #BC9CFF
+			.color__line
+				.color__fon.color_7
+				.color__text <p>Green
+					span.color__number #6FCF97
+		.font
+			.font__line
+				.font__type.type_h1 <p>H1
+				.font__name.name_h1 <p>This one is the sub-section or widget title
+			.font__line
+				.font__type.type_h2 <p>H2
+				.font__name.name_h2 <p>Next one is the item title inside  widgets  
+			.font__line
+				.font__type.type_h3 <p>H3
+				.font__name.name_h3 <p>This is a label or CTA text
+			.font__line
+				.font__type.type_body <p>Body
+				.font__name.name_body <p>This is the body text which is used for most of the design, like paragraphs, lists, etc.
+			 

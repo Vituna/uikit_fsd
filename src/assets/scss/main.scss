@@ -62,14 +62,18 @@ section, .section {
 
 .container {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1500px;
+  padding: 0 30px;
   margin: 0 auto;
-  color: red;
+  display: flex;
+  
 }
 
 // Modules
 // @import "modules/my-module.scss";
-@import "modules/container.scss";
+
 @import "modules/header.scss";
 @import "modules/main.scss";
 @import "modules/footer.scss";
+@import "modules/color-name.scss";
+@import "modules/text-name.scss";

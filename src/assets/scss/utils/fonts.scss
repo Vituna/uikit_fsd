@@ -9,13 +9,20 @@
     font-display: swap;
 }
 @font-face {
+    font-family: 'Quicksand';
+    src: url('/assets/fonts/quicksand-bold.woff2') format('woff2'),
+        url('/assets/fonts/quicksand-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'montserrat';
     src: url('/assets/fonts/montserrat-bold.woff2') format('woff2'),
         url('/assets/fonts/montserrat-bold.woff2') format('woff');
     font-weight: bold;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'montserrat';
     src: url('/assets/fonts/montserrat-regular.woff2') format('woff2'),
@@ -23,5 +30,6 @@
     font-weight: normal;
     font-style: normal;
 }
+
 
          
