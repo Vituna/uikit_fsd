@@ -1,0 +1,27 @@
+// Fonts here
+// see more: https://github.com/vedees/webpack-template/blob/master/README.md#import-js-files
+@font-face {
+    font-family: "quicksand";
+    src: url('/assets/fonts/quicksand-light.woff2') format('woff2'),
+        url('/assets/fonts/quicksand-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('/assets/fonts/montserrat-bold.woff2') format('woff2'),
+        url('/assets/fonts/montserrat-bold.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('/assets/fonts/montserrat-regular.woff2') format('woff2'),
+        url('/assets/fonts/montserrat-regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+         
