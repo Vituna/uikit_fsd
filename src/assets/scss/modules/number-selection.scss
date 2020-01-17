@@ -1,0 +1,99 @@
+.selection {
+    width: 380px;
+    height: 374px;
+    margin-left: 131px;
+    margin-top: 73px;
+    background: $default-color ;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.selection__hat {
+    width: 300px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-family: $fontquicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1F2041;
+}
+.selection__date_picker {
+    display: flex;
+    margin-top: 20px;
+    //background: red;
+    margin-left: 30px;
+}
+.selection__arrival {
+    width: 150px;
+    //background: red;
+}
+.selection__departure{
+    margin-left: 20px;
+}
+.selection__arridepar_name {
+    font-family: $fontdefault;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+.selection__arridepar_date {
+    margin-top: 5px;
+    padding-left: 15px;
+    width: 150px;
+    height: 44px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.selection__text_7 {
+    display: inline-block;
+    font-family: $fontdefault;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+    margin-top: 13px;
+}
+.selection__guests {
+    width: 320px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 21px;
+}
+.selection__numberguests {
+    width: 320px;
+}
+.btn {
+    position: relative;
+    width: 320px;
+    height: 34px;
+    margin-left: 30px;
+    margin-top: 31px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    text-transform: uppercase;
+    color: $default-color;
+    font-family: $fontdefault;
+    font-style: normal;
+    font-weight: bold;
+    &::before {
+        content: "";
+        display: block;
+        width: 18px;
+        height: 18px;
+        background: url("/assets/img/arrow_forward.svg") no-repeat center;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+}

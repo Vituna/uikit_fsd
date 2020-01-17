@@ -8,17 +8,20 @@ html {
     min-width: 320px;
 }
 body {
-    display: flex;
-    flex-direction: column;
+    
     background: #fff;
     font-size: 14px;
     line-height: 24px;
     font-family: $fontdefault;
     width: 100%;
     height: 100%;
+    
+}
+.app {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
-
 
 
 *, *:before, *:after { box-sizing: border-box; }
@@ -77,3 +80,5 @@ section, .section {
 @import "modules/footer.scss";
 @import "modules/color-name.scss";
 @import "modules/text-name.scss";
+@import "modules/number-selection.scss";
+

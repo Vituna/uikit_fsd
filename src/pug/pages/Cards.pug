@@ -5,7 +5,23 @@ block head
 		- var title = 'Cards';
 		- var description = 'Description for Webpack + Pug';
 		- var pageClass = 'index-page';
-
+		
 block page
 	.container
-		p main extends ../layout/maindfdf
+		form(action="#").selection
+			h2.selection__hat Найдём номера под ваши пожелания
+			.selection__date_picker
+				.selection__arrival
+					span.selection__arridepar_name прибытие
+					input(type="text" placeholder="ДД.ММ.ГГГГ").selection__arridepar_date    
+				.selection__departure.selection__arrival
+					span.selection__arridepar_name выезд
+					input(type="text" placeholder="ДД.ММ.ГГГГ").selection__arridepar_date
+			.selection__guests
+				span.selection__guests_text.selection__arridepar_name гости
+				.selection__numberguests.selection__arridepar_date
+					span.selection__text_7 Сколько гостей
+
+			button(type="submit").btn подобрать номер
+
+		
